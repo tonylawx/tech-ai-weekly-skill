@@ -30,10 +30,11 @@ Use this skill to produce Sunday's **Tech & AI Weekly Digest**. The workflow tra
 ## Title & Structural Hard Rules (标题与结构硬性规范)
 
 1. **Main Title (大标题 / H1)**:
+   - **带有栏目标识 (Branded Column Prefix)**: 大标题开头必须带有栏目标识 `【科技周报】`（例如 `【科技周报】OpenAI 罕见主动调降估值，狂飙两年的大模型算不动算力账了 20261025`）。
    - **单点聚焦，选最重的一条 (Single Lead Event)**: 严禁将两三起不同事件用逗号并列拼接在主标题中。必须从全周事件中筛选出最具产业震荡力、颠覆性或认知差的**唯一起核心大事件**作为唯一主线。
    - **抓人眼球，突出硬核冲突 (Eye-Catching & Conflict-Driven)**: 标题必须极具吸引力，直击产业反差与核心痛点（例如揭示估值缩水、大模型算力成本反噬、电网物理死墙等真实账本代价），杜绝平铺直叙的公文式汇报。
    - **严禁使用冒号 (Strictly No Colons)**: **大标题严禁使用冒号（无论是全角 `：` 还是半角 `:`）**！杜绝 `A：B` 模板，采用一气呵成、自然抓人的叙事长句或逗号短语。
-   - 归档与草稿末尾保留 `YYYYMMDD` 日期戳（如 `OpenAI 罕见主动调降估值，狂飙两年的大模型算不动算力账了 20261025`）。
+   - 归档与草稿末尾保留 `YYYYMMDD` 日期戳。
 
 2. **Subheadings (小标题 / H2)**:
    - `## 0`, `## 1`, `## 2`, `## 3` 采用连贯自然的叙事实体短语，**严禁使用冒号（`:` 或 `：`）或 `xxx:xxx` 的套路化模板**。
@@ -43,7 +44,7 @@ Use this skill to produce Sunday's **Tech & AI Weekly Digest**. The workflow tra
 
 ## Structural Template (Fixed Four-Part Architecture)
 
-- **Draft Title**: `[抓最重事件 + 强吸引力 + 无冒号自然标题] 2026MMDD`
+- **Draft Title**: `【科技周报】[抓最重事件 + 强吸引力 + 无冒号自然标题] 2026MMDD`
 - **`## 0 [事件一自然小标题，无冒号]`**:
   - *新闻段落*：简明交代第一起关键事件的核心事实与关键数据。
   - *深度剖析*：撕开公关表象，算清经济账本与利益冲突。
