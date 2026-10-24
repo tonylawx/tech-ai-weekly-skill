@@ -5,41 +5,44 @@ description: Curate, fact-check, and draft the Sunday Tech & AI Weekly Digest (�
 
 # Tech & AI Weekly (科技与 AI 周刊)
 
-Use this skill to produce Sunday's **Tech & AI Weekly Digest**. The workflow transforms unstructured weekly industry noise into a high-signal, four-band analytical newsletter.
+Use this skill to produce Sunday's **Tech & AI Weekly Digest**. The workflow transforms unstructured weekly industry noise into a high-signal, event-driven analytical newsletter.
 
 ## Core Directives
 
-1. **Cognitive Ladder (70% Familiarity + 30% Hardcore Increment)**:
-   - Begin with the week's headline event that tech readers already recognize.
-   - Deliver value in the second half through unit economics (token cost, cluster power, CoWoS packaging, HBM bandwidth), engineering trade-offs, and supply chain realities.
-2. **Penetrate PR Smoke & Follow the Ledger**:
-   - Never parrot corporate marketing claims, synthetic benchmark victories, or vague "AGI tomorrow" hype.
-   - Interrogate the economic reality: Who pays? What is the inference cost? What is the hardware bottleneck?
+1. **One Event Per Section, Fact-Led (一段一事，事实先行)**:
+   - Each major section centers on **one discrete news event**.
+   - **Opening Paragraph**: Provide a concise, objective journalistic account of the event (who, what, when, numbers, direct action). No fluff, no speculation.
+   - **Subsequent Breakdown**:
+     - *Penetrate the PR (撕开公关包装)*: Discard company marketing talking points; inspect unit economics, pricing changes, and capital expenditure burdens.
+     - *Follow the Cash Ledger & Incentives (算清楚账本与利益博弈)*: Who is monetizing? Who is subsidizing? What are the hardware, power, or gross margin constraints?
+     - *Mechanisms & Structural Conflicts (结构性矛盾与深层机制)*: Contrast compute scaling vs. physical bottlenecks (grid, memory bandwidth, packaging yield, hallucination overhead).
+     - *Testable Judgment (合订本检验)*: Provide a clear, falsifiable conclusion with observation criteria over a 2–6 quarter horizon.
+2. **Cognitive Ladder (70% Familiarity + 30% Hardcore Increment)**:
+   - Start from an event the broader tech community already recognizes.
+   - Deliver value through specific unit economics, packaging architecture (e.g., CoWoS, HBM), and power delivery realities.
 3. **Corroboration (孤证不立)**:
-   - Technical benchmark claims or unverified leak specs require at least two independent primary or secondary sources.
-   - When a figure lacks independent verification, explicitly flag it as an unverified estimate.
+   - Benchmark improvements, valuation cuts, or hardware leak specs require at least two independent primary or secondary sources.
 4. **Welcome the Binder (欢迎合订本)**:
-   - Maintain consistency across editions. If a prior judgment on a model family, architecture, or chip roadmap was disproven by reality, openly state the delta and update the analytical model.
+   - Maintain consistency across editions. If a prior judgment was disproven, openly acknowledge the delta and update the analytical model.
 5. **Rules & Boundary Discipline (在规则与边界中表达)**:
-   - Write in neutral, measured, objective language. Avoid emotional fanboyism or apocalyptic doom-saying.
-   - For WeChat distribution, follow platform compliance guidelines without sacrificing technical depth.
+   - Use neutral, measured, objective financial and engineering prose. Avoid sensationalism or emotional hype.
 
-## Structural Template (Fixed Four-Part Architecture)
+## Structural Template (Fixed Event-Driven Architecture)
 
-Do not alter the overarching narrative structure during drafting:
-
-- **Draft Title**: Content-driven, conflict-oriented, ending with `YYYYMMDD` (e.g., `推理成本骤降十倍，但AI落地的死结还没解开 20261025`).
-- **`## 0 本周焦点：热点现象与结构性矛盾`**:
-  - The single most consequential tech/AI event of the week.
-  - Frame the core tension: closed vs. open-source, cloud capex vs. enterprise revenue, speed vs. safety.
-- **`## 1 芯片、算力与真实账本`**:
-  - Hardware, semiconductor supply chain, datacenter power, and infrastructure unit economics.
-  - Bold all stock/ETF symbols (e.g., `**NVDA**`, `**TSM**`, `**AMD**`, `**AVGO**`, `**MSFT**`, `**GOOGL**`).
-- **`## 2 生态博弈与落地阻力`**:
-  - Developer ecosystem, real-world deployment friction, agent workflow limitations, enterprise adoption barriers.
-- **`## 3 长期合订本与推演`**:
-  - 1–2 testable predictions or engineering takeaways.
-  - Suitable for direct transformation into a standalone X (Twitter) post with an A-or-B question.
+- **Draft Title**: Content-driven, conflict-oriented, ending with `YYYYMMDD` (e.g., `OpenAI调降估值，亚马逊停建算力中心：AI狂飙背后的真实账本 20261025`).
+- **`## 0 [事件一标题：核心事件与冲突点]`**:
+  - *新闻段落*：简明交代第一起关键事件的核心事实与关键数据。
+  - *深度剖析*：撕开公关表象，算清经济账本与利益冲突。
+- **`## 1 [事件二标题：硬件/算力/供应链事件]`**:
+  - *新闻段落*：简明交代第二起关键事件（如基础设施、电网、芯片或交付延期）。
+  - *深度剖析*：结合数据图表（```chart），剖析上中下游的实际成本与物理瓶颈。
+  - Bold stock/ETF symbols (e.g., `**NVDA**`, `**TSM**`, `**AMZN**`, `**MSFT**`, `**GOOGL**`).
+- **`## 2 [事件三标题：落地障碍/生态路线事件]`**:
+  - *新闻段落*：简明交代第三起事件（如企业落地摩擦、开源闭源交锋或商业模式变现）。
+  - *深度剖析*：剖析真实业务流中的隐性工程开销与替代方案。
+- **`## 3 [产业合订本推演与观察指标]`**:
+  - 提炼 1–2 个中长期不可逆的产业判断，设立明确的时间窗口与证伪指标。
+  - 提炼适合直接发布在 X 上的观点要点与 A-or-B 讨论问题。
 
 ## Workflow
 
