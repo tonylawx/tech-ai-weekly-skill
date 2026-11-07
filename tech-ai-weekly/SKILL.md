@@ -74,7 +74,6 @@ Use this skill to produce Sunday's **Tech & AI Weekly Digest**. The workflow tra
   - *深度剖析*：剖析真实业务流中的隐性工程开销与替代方案。
 - **`## 3 [产业前瞻与推演，无冒号]`**:
   - 提炼 1–2 个中长期不可逆的产业判断，设立明确的时间窗口与证伪指标（用自然叙述呈现，不写内部字眼）。
-  - 提炼适合直接发布在 X 上的观点要点与 A-or-B 讨论问题。
 
 ## Workflow
 
