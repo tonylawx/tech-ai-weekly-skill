@@ -7,7 +7,7 @@ Rooted in institutional research discipline and industrial-grade content enginee
 2. **70% Familiarity + 30% Hardcore Increment (认知阶梯)**: Hooking general tech readers with macro events, then dissecting infrastructure, supply chain, and unit economics.
 3. **Penetrating PR Smoke and Following the Cash Ledger (利益穿透与真实账本)**: Rejecting corporate marketing hype; calculating token unit costs, inference margins, hardware constraints, and ecosystem conflicts.
 4. **Multi-Source Corroboration (孤证不立)**: Requiring two independent sources for technical claims and performance metrics.
-5. **Long-Term Editorial Accountability (欢迎合订本)**: Tracking predictions across time and updating engineering models when falsified.
+5. **Seven-Day Review Window**: Record the date and authoritative source for each event in `source_notes.md` before drafting.
 
 ## Repository Layout
 
@@ -26,11 +26,16 @@ tech-ai-weekly-skill/
 └── README.md
 ```
 
-## Validation
+## Usage
+
+Read [tech-ai-weekly/SKILL.md](tech-ai-weekly/SKILL.md) and use its references and template.
+Run the validator from the repository root with paths to your draft and source notes.
 
 ```bash
-python3 tech-ai-weekly/scripts/validate_tech_weekly.py path/to/draft.md
+python3 tech-ai-weekly/scripts/validate_tech_weekly.py path/to/draft.md --source-notes path/to/source_notes.md
 ```
+
+Run the validator tests with `python3 -m unittest discover -s tests -v`.
 
 ## License
 
