@@ -2,12 +2,13 @@
 
 Agent and Codex skill for curating, fact-checking, and drafting Sunday's **Tech & AI Weekly Digest (科技与 AI 周刊)**.
 
-Rooted in institutional research discipline and industrial-grade content engineering:
-1. **Event-Led Dissection (一段一事，事实先行)**: Every section opens with a clean, journalistic statement of a single real-world news event, followed by an uncompromising analytical breakdown.
-2. **70% Familiarity + 30% Hardcore Increment (认知阶梯)**: Hooking general tech readers with macro events, then dissecting infrastructure, supply chain, and unit economics.
-3. **Penetrating PR Smoke and Following the Cash Ledger (利益穿透与真实账本)**: Rejecting corporate marketing hype; calculating token unit costs, inference margins, hardware constraints, and ecosystem conflicts.
-4. **Multi-Source Corroboration (孤证不立)**: Requiring two independent sources for technical claims and performance metrics.
-5. **Seven-Day Review Window**: Record the date and authoritative source for each event in `source_notes.md` before drafting.
+Rooted in institutional research discipline and **Industrial Content Engineering Methodology**:
+1. **Event-Led Dissection**: Open each section with objective, ground-truth facts, explicit dates, entities, and critical metrics, completely eliminating corporate PR fluff.
+2. **Follow the Capital Ledger & Real Costs**: Strip away vendor marketing spin to audit micro unit economics, token price trends, industrial power tariffs, and balance-sheet depreciation drag resulting from massive CapEx build-outs.
+3. **Structure of Conflicts over Moralizing**: Examine structural incentive conflicts across the value chain (high foundry/hardware gross margins vs. downstream model margin bleeding, open-source parity vs. proprietary price defenses, compute cluster power draws vs. local community grid reliability).
+4. **Cognitive Ladder & Two-Turn Logic**: 70% familiar headline on-ramp + 30% specialized industrial depth; strictly execute the golden two-turn sequence (Consensus Expectation A $\to$ Micro-Ledger Reality B $\to$ Systemic Institutional & Physical Deadlock C).
+5. **Historical Mirroring**: Benchmark current trends against historical precedents such as the 1999 telecom dark fiber boom, early cloud price competition, and open-source Linux expansion.
+6. **The Binder Protocol**: Reject vague speculative predictions; provide definitive 2–3 quarter deductions with explicit falsification criteria and observable milestones.
 
 ## Repository Layout
 
@@ -16,26 +17,30 @@ tech-ai-weekly-skill/
 ├── tech-ai-weekly/
 │   ├── SKILL.md                          # Primary agent skill instructions
 │   ├── references/
-│   │   ├── curation-standard.md          # Fact-checking & narrative standards
+│   │   ├── industrial-media-methodology.md # Industrial media methodology & content engineering standard
+│   │   ├── curation-standard.md          # Fact-checking, accounting & narrative standards
 │   │   └── source-whitelist.md           # High-signal source catalog
 │   ├── templates/
-│   │   └── weekly-digest-template.md     # Fixed event-driven structural template
+│   │   └── weekly-digest-template.md     # Rich five-layer paragraph structural template
 │   └── scripts/
-│       └── validate_tech_weekly.py       # Structural & anti-PR validator
+│       └── validate_tech_weekly.py       # Richness, volume, attribution & format validator
+├── tests/
+│   └── test_tech_weekly.py               # Test suite for weekly validator
 ├── LICENSE                               # MIT License
 └── README.md
 ```
 
-## Usage
-
-Read [tech-ai-weekly/SKILL.md](tech-ai-weekly/SKILL.md) and use its references and template.
-Run the validator from the repository root with paths to your draft and source notes.
+## Validation
 
 ```bash
-python3 tech-ai-weekly/scripts/validate_tech_weekly.py path/to/draft.md --source-notes path/to/source_notes.md
+python3 tech-ai-weekly/scripts/validate_tech_weekly.py path/to/draft.md
 ```
 
-Run the validator tests with `python3 -m unittest discover -s tests -v`.
+## Running Tests
+
+```bash
+python3 -m unittest discover -s tests -v
+```
 
 ## License
 

@@ -1,21 +1,27 @@
-# 【科技周报】[聚焦单条最重事件，极具吸引力，无冒号自然长句] 2026MMDD
+# 【科技周报】[Engaging Title on Single Lead Event, No Colons] 2026MMDD
 
-## 0 [事件一自然小标题，无冒号]
+## 0 [Lead Event Narrative Title, No Colons]
 
-（真实新闻段落：用 100~200 字以严谨客观的新闻笔调交代第一起核心事件。必须交代具体发生日期（如“10月20日”）与权威信源出处（如“据公司公告”或“据彭博社报道”），写清涉事主体、核心数字与决策事实。）
+(Paragraph 1 - Ground-Truth Facts & Critical Data: In 150–250 words, rigorously and objectively document the lead event. Explicitly state the date, corporate entities involved, transaction/deal metrics, official actions, and direct consequences. Strictly avoid subjective emotionalizing, exclamation marks, or PR rhetoric.)
 
-（深度分析：穿透公关话术，算清真实的成本账本、资本开支压力与产业链利益分配，指出这件事揭示的深层结构性矛盾。）
+(Paragraph 2 - Penetrating the Micro-Ledger: Strip away corporate marketing spin to audit the underlying financial and operating ledger. Detail unit economics, inference token price drops, all-factor costs, CapEx commitments, and balance-sheet depreciation drag. Ground claims in concrete numbers, highlighting who is burning unrecoverable cash vs. surviving on vendor subsidies.)
 
-## 1 [事件二自然小标题，无冒号]
+(Paragraph 3 - Value-Chain Friction & Conflicting Incentives: Dissect deep conflicts of interest across the ecosystem: upstream vs. downstream, hyperscalers vs. specialized startups, capital providers vs. developers. Avoid moralistic framing; present the objective Nash equilibrium under hard constraints.)
 
-（真实新闻段落：客观陈述第二起核心事件，写明具体日期与信源出处（如“10月21日供应链联合声明显示”），聚焦算力中心建设变动、芯片供应链瓶颈或电力能源签约。）
+(Paragraph 4 - Historical Mirroring & Temporal Depth: Benchmark current developments against modern industrial/technological history (e.g., 1999 dark fiber crash, early 2000s Linux vs. proprietary Unix, early cloud price wars). Compare the identical economic mechanics and key variable drifts to establish a clear world model.)
 
-（深度分析：结合数据图表拆解硬件与物理约束。注意对提及的股票/ETF代码进行加粗，例如 `**NVDA**`、`**TSM**`、`**AMZN**`。）
+(Paragraph 5 - Industry Deduction & Falsification Criteria: Formulate a definitive directional outlook for the next 2–3 quarters, establishing explicit observable variables and testable criteria. Present in natural analytical prose without internal pipeline terminology.)
+
+## 1 [Infrastructure, Hardware & Compute Title, No Colons]
+
+(Paragraph 1 - Ground-Truth Facts & Infrastructure Metrics: Objectively introduce the second major development (e.g., chip supply chains, compute infrastructure, high-voltage power agreements, or packaging yield shifts). State specific dates, corporate entities, and engineering metrics.)
+
+(Paragraph 2 - Physical Hard Bottlenecks & Hardware Ledger: Connect with the chart below to dissect engineering bottlenecks. Detail concrete technical metrics such as power cost per kWh, substation interconnection lead times, power rack density, cooling dissipation loss, and liquid cooling CDU costs. Bold relevant equity/ETF tickers, e.g., `**NVDA**`, `**TSM**`, `**AMZN**`, `**MSFT**`, `**GOOGL**`.)
 
 ```chart
 {
   "kind": "bars",
-  "title": "头部云厂商单季度AI资本开支 vs 软件增量 ($B)",
+  "title": "Cloud Hyperscaler Quarterly AI CapEx vs Software Delta ($B)",
   "unit": "$B",
   "items": [
     {"label": "微软 CapEx", "value": 19.2},
@@ -28,12 +34,24 @@
 }
 ```
 
-## 2 [事件三自然小标题，无冒号]
+(Paragraph 3 - Value-Chain Profit Redistribution: Track where economic surplus accumulates across the stack: chip designers, wafer foundries, baseload power providers, equipment manufacturers, and cloud platforms. Detail who captures excess economic rent versus who shoulders asset depreciation and operational risk.)
 
-（真实新闻段落：客观陈述第三起核心事件，写明具体日期与信源出处（如“据机构于 10 月 23 日发布的技术报告”），聚焦模型自主行为、开源闭源交锋或企业落地摩擦。）
+(Paragraph 4 - Systemic & Physical Deadlocks: Examine the structural drivers behind current bottlenecks, whether public grid interconnection queues, environmental zoning regulations, or packaging yield ceilings, contrasting technical ambition with industrial reality.)
 
-（深度分析：拆解真实业务流中的隐性工程开销，分析模型幻觉、安全监控失效风险与商业变现阻力。）
+## 2 [Enterprise Adoption & Software Economics Title, No Colons]
 
-## 3 [产业前瞻与推演，无冒号]
+(Paragraph 1 - Ground-Truth Facts & Enterprise Adoption Metrics: Detail the third major theme (e.g., enterprise production deployment metrics, open-source competition, API price wars, or enterprise alternatives). Provide specific dates, product lines, and performance metrics.)
 
-（产业研判：给出 1~2 个不随波逐流的硬核推导结论，指明未来 2~3 个季度的观察窗口与证伪指标。用自然流畅的商业分析笔调呈现，切忌出现“长期合订本推演：”等内部工程字眼。）
+(Paragraph 2 - Production Workflows & Hidden Integration Overhead: Detail non-obvious enterprise deployment expenses, including hallucination containment, deterministic validation pipelines, data governance, and context-window degradation rates. Clarify the massive cost gap between research demos and production workflows.)
+
+(Paragraph 3 - Commercial Moats & Ecosystem Co-opetition: Examine platform and ecosystem developer friction. Do model price cuts compress application layer margins? How does open-source parity erode proprietary software moats? Audit true business model viability.)
+
+(Paragraph 4 - Industry Consolidation & Defensive Moats: Evaluate shallow wrappers facing consolidation over the next 2–3 quarters, identifying authentic defensive moats (proprietary workflow data, high switching costs, mission-critical deterministic delivery).)
+
+## 3 [Industry Outlook & Strategic Deduction, No Colons]
+
+(Paragraph 1 - Narrative Synthesis & Macro Trend: Synthesize the preceding themes into a unified cognitive world model. Illustrate how the tech cycle is shifting from conceptual hype into capital-intensive engineering delivery and balance-sheet execution.)
+
+(Paragraph 2 - Core Directional Outlook & Falsification Horizon: Formulate 1–2 high-conviction industry deductions with explicit 2–3 quarter observation windows and testable metrics (e.g., gross margin inflection points, transformer lead time revisions, frontier model pricing resets).)
+
+(Paragraph 3 - Public Engagement Takeaways & Discussion Prompt: Distill clear takeaways and one thought-provoking discussion prompt suitable for social media syndication.)
