@@ -137,8 +137,24 @@ def validate_text(text: str) -> list[str]:
 
     # 5. Length check
     char_count = len(re.sub(r"\s+", "", text))
-    if char_count < 1200:
-        errors.append(f"Article is too terse: {char_count} characters (minimum 1200 recommended).")
+    if char_count < 2200:
+        errors.append(f"Article is too terse for an industrial-grade weekly digest: {char_count} characters (minimum 2200 required, 3200~4800 recommended).")
+
+    # Section Paragraph Richness check
+    sections = re.split(r"(?m)^##\s+", text)
+    if len(sections) >= 5:  # preamble + 4 sections
+        for idx, sec in enumerate(sections[1:], start=0):
+            sec_lines = sec.strip().splitlines()
+            sec_title = sec_lines[0] if sec_lines else f"Section {idx}"
+            clean_sec = re.sub(r"```chart[\s\S]*?```", "", sec)
+            paragraphs = [p.strip() for p in re.split(r"\n\s*\n", clean_sec)[1:] if len(p.strip()) > 50]
+            if len(paragraphs) < 2:
+                errors.append(f"Section '## {sec_title}' lacks depth: found {len(paragraphs)} substantial paragraphs (minimum 2 paragraphs required for industrial depth).")
+
+    # Quantitative Metrics Density check
+    metrics_found = re.findall(r"\d+(?:\.\d+)?%|\$\d+(?:\.\d+)?|\b\d+(?:\.\d+)?(?:GW|MW|kW|亿|万|bps|nm|美元|元)\b", text)
+    if len(metrics_found) < 6:
+        errors.append(f"Insufficient quantitative data density: found only {len(metrics_found)} specific metric occurrences (minimum 6 required to substantiate accounting claims).")
 
     # 6. Check Arabic numerals in headings
     for line in lines:
